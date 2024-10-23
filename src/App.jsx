@@ -1,15 +1,16 @@
 import React from 'react'
-import Body from './componentes/Body'
 import Header from './componentes/Header'
-import App from './App.css'
+import Body from './componentes/Body'
+import Footer from './componentes/Footer'
 
 function App() {
   return (
     <>
-    <Header/>
-    <Body/>
+      <Header />
+      <Body />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
