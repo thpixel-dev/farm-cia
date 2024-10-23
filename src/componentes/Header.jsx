@@ -6,7 +6,6 @@ function Header() {
   return (
     <header className="header">
       <Logo /> 
-      <h1>Farmácia</h1>
     </header>
   );
 }

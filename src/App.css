@@ -13,24 +13,73 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  height: 1200px;
+  height: 900px;
+}
+.bemvindo {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+
+.inaguraçao {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.localizaçao {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.bloco {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.camisas {
+  background-color: #f0f8ff; 
+  border: 2px solid #ef97a4; 
+  border-radius: 10px; 
+  padding: 20px; 
+  text-align: center; 
+  margin: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.camisas h1 {
+  color: #ef97a4; 
+  font-size: 24px; 
+  margin-bottom: 15px; 
+}
+
+.camisas button {
+  background-color: #ef97a4; 
+  color: white;
+}
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #ef97a4;
 }
 
 h2 {
   margin-top: 0;
-  color: #666;
+  color: #ef97a4;
 }
 
 
 p {
   margin-bottom: 20px;
-  color: #666;
+  color: #ef97a4;
 }
 
 ul {
@@ -41,30 +90,12 @@ ul {
 
 li {
   padding: 10px;
-  border-bottom: 1px solid #ccc;
 }
 
 li:last-child {
   border-bottom: none;
 }
 
-
-.servicos {
-  margin-top: 40px;
-}
-
-.servicos h2 {
-  margin-bottom: 20px;
-}
-
-
-.produtos {
-  margin-top: 40px;
-}
-
-.produtos h2 {
-  margin-bottom: 20px;
-}
 .header {
   display: flex;
   flex-direction: column; 
@@ -76,7 +107,7 @@ li:last-child {
   height: 90px;
 }
 .header h1 {
-  color: #000000;
+  color: #ef97a4;
 }
 
 .logo {
@@ -140,6 +171,6 @@ footer {
 }
 
 .footer-crypt h1 {
-    color: #000000; 
+    color: #ef97a4; 
     font-size: 14px; 
 }

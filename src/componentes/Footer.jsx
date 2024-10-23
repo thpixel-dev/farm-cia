@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-wrapper"> 
                 <div className="footer-container">
                     <div className="footer-info">
-                        <h3>Farmácia Saúde</h3>
+                        <h3>Farmácia</h3>
                         <p>Endereço: Rua das Flores, 123 - Centro</p>
                         <p>Telefone: (11) 1234-5678</p>
                         <p>Email: contato@farmaciasaude.com.br</p>
@@ -23,7 +23,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-crypt">
-                    <h1>&copy; 2023 Farmácia Saúde. Todos os direitos reservados.</h1>
+                    <h1>&copy; 2024 Farmácia.Todos os direitos reservados.</h1>
                 </div>
             </div>
         </footer>
