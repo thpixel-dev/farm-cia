@@ -1,3 +1,4 @@
+
 :root{
   --cor-1: #e23e57;
   --cor-2: #ffffff;
@@ -12,6 +13,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  height: 1200px;
 }
 
 h1 {
@@ -71,6 +73,7 @@ li:last-child {
   background-color: #ef97a4; 
   padding: 20px; 
   color: white; 
+  height: 90px;
 }
 .header h1 {
   color: #000000;
@@ -91,7 +94,8 @@ footer {
   background-color: var(--cor-1); 
   color: var(--cor-2); 
   padding: 10px 0; 
-  font-size: 12px; 
+  font-size: 12px;
+  margin-top: 10px
 }
 
 .footer-wrapper {
