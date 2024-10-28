@@ -40,11 +40,6 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
-
-
-.bloco {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
 .camisas {
   background-color: #f0f8ff; 
   border: 2px solid #ef97a4; 
@@ -52,7 +47,7 @@ body {
   padding: 20px; 
   text-align: center; 
   margin: 20px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px #ef97a4; 
 }
 
 .camisas h1 {
@@ -64,6 +59,69 @@ body {
 .camisas button {
   background-color: #ef97a4; 
   color: white;
+}
+.gerenciamento_de_senha {
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 30px; 
+  max-width: 400px; 
+  width: 100%; 
+  text-align: center; 
+}
+
+
+.gerenciamento_de_senha h2 {
+  color: #ef97a4; 
+  margin-bottom: 20px; 
+  font-size: 24px; 
+  font-weight: bold; 
+}
+
+.gerenciamento_de_senha button {
+  background-color: #ef97a4; 
+  color: #ffffff; 
+  border: none; 
+  padding: 12px 20px; 
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px; 
+}
+.bloco_senhas {
+  margin-top: 20px; 
+  padding: 20px; 
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
+  text-align: left; 
+}
+
+
+.bloco_senhas h3 {
+  color: #ef97a4; 
+  margin-bottom: 10px; 
+  font-size: 18px; 
+  border-bottom: 2px solid #e0e0e0; 
+  padding-bottom: 5px;
+}
+
+
+.bloco_senhas ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.bloco_senhas li {
+  font-size: 16px; 
+  color: #555; 
+  padding: 5px 0; 
+  border-bottom: 1px solid #e0e0e0; 
+}
+
+.bloco_senhas li:last-child {
+  border-bottom: none; 
 }
 h1 {
   text-align: center;

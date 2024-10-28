@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import { CiMedicalCross } from "react-icons/ci";
 import Camisas from './camisas';
+import Atendimento from './Atendimentosh'
 function Body() {
  
     return (
@@ -21,7 +22,8 @@ function Body() {
         <h2>Localização:</h2>
         <p>Estamos localizados na Rua da Farmácia, 123 - Centro</p>
       </div>
-     <Camisas />
+     <Camisas/>
+     <Atendimento/>
       </>
     );
   }
