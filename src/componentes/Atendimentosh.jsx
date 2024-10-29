@@ -33,15 +33,15 @@ function Atendimentosh() {
       alert('Não tem ninguém na fila. Vá descansar!')
   }
   }
-     return (
-     <div>
-       <div className='gerenciamento_de_senha'>
-         <h2>Gerenciamento de Senha</h2>
-         <button onClick={gerarSenhaNormal}>Gerar Senha Normal</button>
-         <button onClick={gerarSenhaPreferencial}>Gerar Senha Preferencial</button>
-         <button onClick={atender}>Atender</button>
-       </div>
-       <div className='bloco_senhas'>
+  return (
+    <div className="container">
+      <div className="gerenciamento_de_senha">
+        <h2>Gerenciamento de Senha</h2>
+        <button onClick={gerarSenhaNormal}>Gerar Senha Normal</button>
+        <button onClick={gerarSenhaPreferencial}>Gerar Senha Preferencial</button>
+        <button onClick={atender}>Atender</button>
+      </div>
+      <div className="bloco_senhas">
         <h3>Senhas Normais</h3>
         <ul>
           {filaNormal.map((senha, index) => (
@@ -55,7 +55,7 @@ function Atendimentosh() {
           ))}
         </ul>
       </div>
-     </div>
-   )
+    </div>
+  )
  }
 export default Atendimentosh

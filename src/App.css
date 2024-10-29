@@ -7,7 +7,6 @@
   --cor-5: #e6e6e6;
   --cor-6: #ef97a4;
 }
-
 body {
   background-color: #e96a7e;
   font-family: Arial, sans-serif;
@@ -60,68 +59,54 @@ body {
   background-color: #ef97a4; 
   color: white;
 }
-.gerenciamento_de_senha {
-  background-color: #ffffff; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  padding: 30px; 
-  max-width: 400px; 
-  width: 100%; 
-  text-align: center; 
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  margin-top: 20px;     
 }
-
-
-.gerenciamento_de_senha h2 {
-  color: #ef97a4; 
-  margin-bottom: 20px; 
-  font-size: 24px; 
-  font-weight: bold; 
-}
-
-.gerenciamento_de_senha button {
-  background-color: #ef97a4; 
-  color: #ffffff; 
-  border: none; 
-  padding: 12px 20px; 
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 8px; 
-}
+.gerenciamento_de_senha,
 .bloco_senhas {
-  margin-top: 20px; 
-  padding: 20px; 
+  max-width: 400px;      
+  width: 100%;            
+  margin: 10px 0;        
+  padding: 20px;          
   background-color: #ffffff; 
   border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  max-width: 400px; 
-  text-align: left; 
+  box-shadow: 0 4px 8px #ef97a4; 
+  text-align: center;    
 }
-
-
+.gerenciamento_de_senha h2 {
+  color: #e23e57; 
+  font-size: 28px;
+  margin-bottom: 20px ;
+}
 .bloco_senhas h3 {
-  color: #ef97a4; 
+  color: #e96a7e; 
+  font-size: 22px; 
+  margin-top: 20px; 
   margin-bottom: 10px; 
-  font-size: 18px; 
+  border-bottom: 2px solid #e0e0e0; 
+  padding-bottom: 5px; 
+}
+.gerenciamento_de_senha button {
+  background-color: #e23e57; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+  margin: 5px; 
+}
+.bloco_senhas h3 {
+  color: #e96a7e; 
+  font-size: 22px; 
+  margin-top: 20px; 
+  margin-bottom: 10px;
   border-bottom: 2px solid #e0e0e0; 
   padding-bottom: 5px;
-}
-
-
-.bloco_senhas ul {
-  list-style-type: none; 
-  padding: 0; 
-}
-
-.bloco_senhas li {
-  font-size: 16px; 
-  color: #555; 
-  padding: 5px 0; 
-  border-bottom: 1px solid #e0e0e0; 
-}
-
-.bloco_senhas li:last-child {
-  border-bottom: none; 
 }
 h1 {
   text-align: center;
